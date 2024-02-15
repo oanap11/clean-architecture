@@ -1,6 +1,8 @@
+using DoubleDinner.Domain.Entities;
+
 namespace DoubleDinner.Application.Common.Interfaces.Authentication;
 
 public interface IJwtTokenGenerator 
 {
-    string GenerateToken(Guid userId, string firstName, string lastName);
+    string GenerateToken(User user);
 }
