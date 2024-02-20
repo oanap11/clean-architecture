@@ -1,6 +1,6 @@
 using DoubleDinner.Domain.Entities;
 
-namespace DoubleDinner.Application.Services.Authentication.Common;
+namespace DoubleDinner.Application.Authentication.Common;
 
 public record AuthenticationResult (
     User User,
